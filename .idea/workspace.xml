@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fe27aa7-a806-4c6a-8673-9e58fbfc0ddf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plano-de-saude.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/businessobject/AdicionaDependente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/businessobject/ContratacaoPlano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/businessobject/MarcacaoConsulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/enumeracao/EnumEspecialidades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/enumeracao/EnumTipoPlano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Beneficiario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/ClinicaConveniada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Fonoaudiologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Medico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Nutricionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/ProfissionalDaSaude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Psicologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/ServicoProprio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Titulavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/repository/BeneficiarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/repository/PrestadorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/repository/ProfissionalDaSaudeRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HdmPhHKoLR9QoJlKLtkklBzsGe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/eulal/Documents/DEV/JAVA/poo2/plano-de-saude",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fe27aa7-a806-4c6a-8673-9e58fbfc0ddf" name="Changes" comment="" />
+      <created>1668623313905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668623313905</updated>
+      <workItem from="1668623315113" duration="3049000" />
+      <workItem from="1669063161006" duration="5705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
