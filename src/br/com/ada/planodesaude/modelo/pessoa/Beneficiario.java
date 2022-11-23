@@ -1,4 +1,4 @@
-package br.com.ada.planodesaude.modelo;
+package br.com.ada.planodesaude.modelo.pessoa;
 
 public class Beneficiario implements Titulavel {
     private boolean isTitulavel;
@@ -6,7 +6,7 @@ public class Beneficiario implements Titulavel {
     private String cpf;
     private String idade;
     private String nomeDaMae;
-    private Endereco endereco;
+    private EnderecoBuilder endereco;
 
     @Override
     public boolean isTitulavel() {

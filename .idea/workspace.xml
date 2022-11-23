@@ -5,30 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fe27aa7-a806-4c6a-8673-9e58fbfc0ddf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plano-de-saude.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/businessobject/AdicionaDependente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/businessobject/ContratacaoPlano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/businessobject/MarcacaoConsulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/enumeracao/EnumEspecialidades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/enumeracao/EnumTipoPlano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Beneficiario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/ClinicaConveniada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Fonoaudiologo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Medico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Nutricionista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/ProfissionalDaSaude.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Psicologo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/ServicoProprio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Titulavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/repository/BeneficiarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/repository/PrestadorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/repository/ProfissionalDaSaudeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/pessoa/EnderecoBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Beneficiario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/pessoa/Beneficiario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/ClinicaConveniada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/instituicaodesaude/ClinicaConveniada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Fonoaudiologo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/pessoa/Fonoaudiologo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/pessoa/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Nutricionista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/pessoa/Nutricionista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/ProfissionalDaSaude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/pessoa/ProfissionalDaSaude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Psicologo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/pessoa/Psicologo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/ServicoProprio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/instituicaodesaude/ServicoProprio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/Titulavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/planodesaude/modelo/pessoa/Titulavel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +49,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/eulal/Documents/DEV/JAVA/poo2/plano-de-saude",
+    "last_opened_file_path": "C:/Users/eulalia.costa/Documents/DEV/JAVA/plano-de-saude",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +68,8 @@
       <updated>1668623313905</updated>
       <workItem from="1668623315113" duration="3049000" />
       <workItem from="1669063161006" duration="5705000" />
+      <workItem from="1669228845406" duration="698000" />
+      <workItem from="1669230559371" duration="2934000" />
     </task>
     <servers />
   </component>
