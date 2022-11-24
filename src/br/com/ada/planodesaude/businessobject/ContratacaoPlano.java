@@ -1,5 +1,10 @@
 package br.com.ada.planodesaude.businessobject;
 
-public class ContratacaoPlano {
+import br.com.ada.planodesaude.modelo.pessoa.BeneficiarioTitular;
+
+public interface ContratacaoPlano {
+
+    void assinaContrato();
+
 
 }

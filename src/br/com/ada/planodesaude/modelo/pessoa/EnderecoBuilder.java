@@ -1,18 +1,12 @@
 package br.com.ada.planodesaude.modelo.pessoa;
 
 public class EnderecoBuilder {
-    private int id;
-
     private String rua;
     private String numero;
     private String cep;
     private String bairro;
+    private String cidade;
     private String estado;
-
-    public EnderecoBuilder id(int id) {
-        this.id = id;
-        return this;
-    }
 
     public EnderecoBuilder rua(String rua) {
         this.rua = rua;
@@ -34,13 +28,18 @@ public class EnderecoBuilder {
         return this;
     }
 
+    public EnderecoBuilder cidade(String cidade) {
+        this.cidade = cidade;
+        return this;
+    }
+
     public EnderecoBuilder estado(String estado) {
         this.estado = estado;
         return this;
     }
 
     public Endereco build(){
-        Endereco enderecoCriado = new Endereco(id, rua, numero, cep, bairro, estado);
+        Endereco enderecoCriado = new Endereco(rua, numero, cep, bairro, cidade, estado);
         return enderecoCriado;
     }
 }
